@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_1"
+    tools:context=".Buyers.RegisterActivity">
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/ic_baseline_keyboard_arrow_left_24" />
+    <ImageView
+        android:id="@+id/register_applogo"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/logogif" />
+
+
+    <EditText
+        android:id="@+id/register_username_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/inputlogin"
+        android:drawableLeft="@drawable/user_final"
+        android:drawablePadding="8dp"
+        android:fontFamily="sans-serif"
+        android:hint="Name"
+        android:inputType="text"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:textColorHint="#BCC8D0"
+        android:textSize="20sp" />
+
+    <com.santalu.maskedittext.MaskEditText
+        android:id="@+id/register_ph_no_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_username_input"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/inputlogin"
+        android:drawableLeft="@drawable/phone_final"
+        android:drawablePadding="8dp"
+        android:fontFamily="sans-serif"
+        android:hint="Phone Number"
+        android:inputType="number"
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:textColorHint="#BCC8D0"
+        android:textSize="20sp"
+        app:met_mask="+91 ### ### ## ##" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/TIL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/register_ph_no_input"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:hint=" "
+        app:passwordToggleEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/register_pass_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/register_ph_no_input"
+            android:background="@drawable/inputlogin"
+            android:drawableStart="@drawable/password"
+            android:drawableLeft="@drawable/password"
+            android:hint="Password"
+            android:drawablePadding="8dp"
+            android:fontFamily="sans-serif"
+            android:inputType="textPassword"
+            android:padding="15dp"
+            android:textColor="@color/black"
+            android:textColorHint="#BCC8D0"
+            android:textSize="20sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <soup.neumorphism.NeumorphCardView
+        android:id="@+id/CreateAccount"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TIL"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginRight="10dp"
+        android:cursorVisible="true"
+        android:longClickable="true"
+        app:neumorph_backgroundColor="#4D606F"
+        app:neumorph_shadowColorDark="#d9d9d9"
+        app:neumorph_shadowColorLight="#FFFFFF"
+        app:neumorph_shadowElevation="5dp"
+        app:neumorph_shapeType="flat"
+        app:neumorph_strokeColor="#FFFFFF">
+
+        <TextView
+            android:layout_width="195dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-black"
+            android:padding="20sp"
+            android:text="Create Account"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18dp" />
+
+    </soup.neumorphism.NeumorphCardView>
+
+
+    <TextView
+        android:id="@+id/login_now"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/CreateAccount"
+        android:layout_centerHorizontal="true"
+        android:cursorVisible="true"
+        android:fontFamily="sans-serif-thin"
+        android:text="Already have an account?"
+        android:textAlignment="center"
+        android:textColor="#4E4949"
+        android:textSize="13dp"
+        android:textStyle="bold" />
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/google_login"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginBottom="20dp"-->
+<!--        android:cursorVisible="true"-->
+<!--        android:drawableLeft="@drawable/google_signin"-->
+<!--        android:drawablePadding="4dp"-->
+<!--        android:focusableInTouchMode="false"-->
+<!--        android:fontFamily="sans-serif-black"-->
+<!--        android:gravity="center"-->
+<!--        android:text="Continue with Google"-->
+<!--        android:textSize="16sp" />-->
+
+
+</RelativeLayout>

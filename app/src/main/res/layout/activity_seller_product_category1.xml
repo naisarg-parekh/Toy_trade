@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sellers.SellerProductCategory1Activity"
+    android:background="@drawable/seller_home1">
+
+    <TextView
+        android:id="@+id/slogan_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="43dp"
+        android:fontFamily="@font/bad_script"
+        android:text="Add New Product"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textFontWeight="900"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/Seller_logout_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/slogan_category"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:background="@drawable/ic_baseline_logout_24"
+        android:foregroundGravity="center"
+        android:minWidth="40dp"
+        android:minHeight="50dp"
+
+
+        />
+
+    <LinearLayout
+        android:id="@+id/linear1_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/slogan_category"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="45dp"
+        >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/For0to18m"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:src="@drawable/i0to18m" />
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/For0to18m"
+                android:layout_alignParentBottom="true"
+                android:fontFamily="sans-serif-black"
+                android:text="For 0-18 Months"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerHorizontal="true"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/For18to36m"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:src="@drawable/i18to36m" />
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="100dp"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/For18to36m"
+                android:layout_alignParentBottom="true"
+                android:fontFamily="sans-serif-black"
+                android:text="For 18-36 Months" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerHorizontal="true"
+            android:gravity="center">
+
+
+            <ImageView
+                android:id="@+id/For3to5y"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:src="@drawable/i3to5y"
+                />
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="80dp"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/For3to5y"
+                android:layout_alignParentBottom="true"
+                android:fontFamily="sans-serif-black"
+                android:text="For 3-5 Years" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear2_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear1_category_layout"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="15dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerHorizontal="true"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/For5to7y"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:src="@drawable/i5to7y"
+                />
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="80dp"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/For5to7y"
+                android:layout_alignParentBottom="true"
+                android:fontFamily="sans-serif-black"
+                android:text="For 5-7 Years" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerHorizontal="true"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/For7to9y"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:src="@drawable/i7to9y"
+                />
+
+            <TextView
+                android:id="@+id/text5"
+                android:layout_width="80dp"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/For7to9y"
+                android:layout_alignParentBottom="true"
+                android:fontFamily="sans-serif-black"
+                android:text="For 7-9 Years" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerHorizontal="true"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/For9to12y"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:paddingRight="10dp"
+                android:paddingLeft="10dp"
+                android:src="@drawable/i9to12y"
+                />
+
+            <TextView
+                android:id="@+id/text6"
+                android:layout_width="80dp"
+                android:textAlignment="center"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/For9to12y"
+                android:layout_alignParentBottom="true"
+                android:fontFamily="sans-serif-black"
+                android:text="For 9-12 Years" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear3_category_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/linear2_category_layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/For12yplus"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:src="@drawable/i12plusy" />
+
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/For12yplus"
+            android:layout_alignParentBottom="true"
+            android:fontFamily="sans-serif-black"
+            android:text="For 12+ Years" />
+
+    </LinearLayout>
+</RelativeLayout>

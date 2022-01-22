@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/AS_Workplace/ToyTrade/app/src/main/res/layout/activity_admin_check_new_products.xml" value="0.26358695652173914" />
+        <entry key="..\:/AS_Workplace/ToyTrade/app/src/main/res/layout/activity_admin_home.xml" value="0.21829710144927536" />
+        <entry key="..\:/AS_Workplace/ToyTrade/app/src/main/res/layout/activity_admin_maintain_product.xml" value="0.21829710144927536" />
+        <entry key="..\:/AS_Workplace/ToyTrade/app/src/main/res/layout/activity_admin_new_orders.xml" value="0.21829710144927536" />
+        <entry key="..\:/AS_Workplace/ToyTrade/app/src/main/res/layout/activity_admin_user_products.xml" value="0.21829710144927536" />
+        <entry key="..\:/AS_Workplace/ToyTrade/app/src/main/res/layout/activity_cart_activitiy.xml" value="0.24728260869565216" />
+        <entry key="..\:/AS_Workplace/ToyTrade/app/src/main/res/layout/activity_confirm_final_order.xml" value="0.24728260869565216" />
+        <entry key="..\:/AS_Workplace/ToyTrade/app/src/main/res/layout/activity_home.xml" value="0.14375" />
+        <entry key="..\:/AS_Workplace/ToyTrade/app/src/main/res/layout/activity_login_acitvity.xml" value="0.21829710144927536" />
+        <entry key="..\:/AS_Workplace/ToyTrade/app/src/main/res/layout/activity_main.xml" value="0.14375" />
+        <entry key="..\:/AS_Workplace/ToyTrade/app/src/main/res/layout/activity_payment.xml" value="0.24728260869565216" />
+        <entry key="..\:/AS_Workplace/ToyTrade/app/src/main/res/layout/activity_seller_product_category1.xml" value="0.26358695652173914" />
+        <entry key="..\:/AS_Workplace/ToyTrade/app/src/main/res/layout/activity_web_view.xml" value="0.14375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectPlainTextFileTypeManager">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/example/toytrade/Buyers/sample.kt" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

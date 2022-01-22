@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/seller_reg_bg"
+    tools:context=".Sellers.SellersRegistrationAcitvity">
+
+    <ImageButton
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:background="@drawable/ic_baseline_keyboard_arrow_left_24" />
+
+    <TextView
+        android:id="@+id/title_seller"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:fontFamily="@font/bad_script"
+        android:gravity="center"
+        android:text="Seller Registration Form"
+        android:textColor="@color/black"
+        android:textFontWeight="900"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/seller_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_seller"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:drawableLeft="@drawable/user_final"
+        android:drawablePadding="10dp"
+        android:fontFamily="sans-serif"
+        android:hint="Name"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/seller_phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seller_name"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:drawableLeft="@drawable/phone_final"
+        android:drawablePadding="10dp"
+        android:fontFamily="sans-serif"
+        android:hint="Phone no."
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/seller_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seller_phone"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:drawableLeft="@drawable/email"
+        android:drawablePadding="6dp"
+        android:fontFamily="sans-serif"
+        android:hint="Email id"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:textSize="16dp" />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/TILS"
+        android:layout_below="@+id/seller_email"
+        android:layout_width="match_parent"
+        app:passwordToggleEnabled="true"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="10dp"
+        android:hint=" ">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/seller_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/seller_email"
+            android:drawableLeft="@drawable/password"
+            android:drawableStart="@drawable/password"
+            android:minHeight="48dp"
+            android:drawablePadding="10dp"
+            android:fontFamily="sans-serif"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:textColor="@color/black"
+            android:textColorHint="#BCC8D0"
+            android:textSize="16sp"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <EditText
+        android:id="@+id/seller_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TILS"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="50dp"
+        android:drawableLeft="@drawable/location"
+        android:drawablePadding="8dp"
+        android:fontFamily="sans-serif"
+        android:hint="Shop-Business Address"
+        android:inputType="textPostalAddress"
+        android:minHeight="48dp"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/seller_register_btn"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seller_address"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/themebuttin"
+        android:fontFamily="sans-serif"
+        android:padding="15dp"
+        android:text="Register"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/seller_already_have_account_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/seller_register_btn"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="10dp"
+        android:text="I'm already a member "
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#4E4949"
+        android:textSize="15dp" />
+
+
+</RelativeLayout>

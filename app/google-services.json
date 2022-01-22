@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "456869966471",
+    "project_id": "toytrade-d92e7",
+    "storage_bucket": "toytrade-d92e7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456869966471:android:8ba240c69811f0f9cf7e22",
+        "android_client_info": {
+          "package_name": "com.example.toytrade"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "456869966471-051q8t45n03oe2k3b3k4s8a70g9h4t7m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.toytrade",
+            "certificate_hash": "827508c5a7ae00cadc8aba36d83d5db0d8437e03"
+          }
+        },
+        {
+          "client_id": "456869966471-jchbf4kfivgag5l5luefffrfag45hu3h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBM0AFArfA43CgLX9l1bw_SESwXcSPDcm0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "456869966471-jchbf4kfivgag5l5luefffrfag45hu3h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
